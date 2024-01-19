@@ -10,7 +10,7 @@ class ElevatedButtonWidget extends StatelessWidget {
         child: ElevatedButton(onPressed: (){},
             style: ElevatedButton.styleFrom(
             ),
-            child: const Text("T h a n k y o u  "),),
+            child: const Text("T h a n k y o u  1"),),
       ),
     );
   }
