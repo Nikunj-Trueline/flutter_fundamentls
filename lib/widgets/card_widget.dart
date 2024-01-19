@@ -8,7 +8,7 @@ class CardWidget extends StatelessWidget {
     return Scaffold(
       body: Card(
         color: Colors.purple,
-        shadowColor: Colors.deepPurple,
+        shadowColor: Colors.amber,
         elevation: 50,
         margin: EdgeInsets.all(20),
         child: Container(
