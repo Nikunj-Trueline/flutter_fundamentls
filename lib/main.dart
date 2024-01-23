@@ -1,30 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fundamentls/practical_example/stateless_stateful_dif.dart';
-import 'package:flutter_fundamentls/widgets/card_widget.dart';
-import 'package:flutter_fundamentls/widgets/center_widget.dart';
-import 'package:flutter_fundamentls/widgets/circleavtar_widget.dart';
-import 'package:flutter_fundamentls/widgets/colors.dart';
-import 'package:flutter_fundamentls/widgets/column_widget.dart';
-import 'package:flutter_fundamentls/widgets/expanded_widget.dart';
-import 'package:flutter_fundamentls/widgets/image_widget.dart';
-import 'package:flutter_fundamentls/widgets/row_widget.dart';
-import 'package:flutter_fundamentls/widgets/safearea_widget.dart';
-import 'package:flutter_fundamentls/widgets/sizeBox_widget.dart';
-import 'package:flutter_fundamentls/widgets/stack_widget.dart';
-import 'package:flutter_fundamentls/widgets/text_widget.dart';
-import 'package:flutter_fundamentls/widgets/icon_Widget.dart';
-import 'package:flutter_fundamentls/widgets/wrap_widget.dart';
-
-import 'advanced_widgets/listtile_widgets.dart';
-import 'advanced_widgets/listview.dart';
-import 'advanced_widgets/listview_builder.dart';
-import 'advanced_widgets/snackbar_widget.dart';
-import 'advanced_widgets/tabbar_widget.dart';
-import 'buttons/elevated_button.dart';
-import 'buttons/floating_action_buttons.dart';
-import 'buttons/icon_button.dart';
-import 'buttons/text_button.dart';
-import 'calculator/calculator_screen.dart';
+import 'package:flutter_fundamentls/widgets/circular_progress_indictaor.dart';
+import 'advanced_widgets/navigation_drawer.dart';
+import 'advanced_widgets/page_view_builder.dart';
 
 
 void main() {
@@ -40,7 +17,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: CalculatorScreen(),
+      home: NavigationDrawerWidget(),
     );
   }
 }

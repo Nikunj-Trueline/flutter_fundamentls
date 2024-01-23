@@ -9,7 +9,7 @@ class TextButtonWidget extends StatelessWidget {
       body: Center(
         child: TextButton(onPressed: (){
    print("LOG_IN BUTTON PRESSED");
-        }, child: Text("L O G _ I N "),
+        },
           onLongPress: () {
 
           },
@@ -23,7 +23,7 @@ class TextButtonWidget extends StatelessWidget {
             ),
             elevation: 30,
             shadowColor: Colors.black
-          ),
+          ), child: const Text("L O G _ I N "),
         ),
 
 

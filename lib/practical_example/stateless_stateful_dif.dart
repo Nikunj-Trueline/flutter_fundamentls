@@ -34,11 +34,9 @@ class _TestClassState extends State<TestClass> {
                });
                  print(value);
               },
-              child: Icon(Icons.exposure_minus_1),
+              child:const Icon(Icons.exposure_minus_1),
             ),
-            Container(
-              child: Text("$value",style: TextStyle(color: Colors.black,fontSize: 40,fontWeight: FontWeight.w600,),),
-            ),
+            Text("$value",style: TextStyle(color: Colors.black,fontSize: 40,fontWeight: FontWeight.w600,),),
             ElevatedButton(
               onPressed: () {
              setState(() {

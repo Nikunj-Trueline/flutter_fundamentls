@@ -8,54 +8,54 @@ class FloatingActionButtonWidget extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Padding(
-          padding: EdgeInsets.all(20),
+          padding: const EdgeInsets.all(20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text("DEFAULT BUTTON"),
+                  const Text("DEFAULT BUTTON"),
                   FloatingActionButton(
                     onPressed: () {},
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text("SMALL BUTTON"),
+                  const Text("SMALL BUTTON"),
                   FloatingActionButton.small(
                     onPressed: () {},
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text("LARGE BUTTON"),
+                  const Text("LARGE BUTTON"),
                   FloatingActionButton.large(
                     onPressed: () {},
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 30,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text("EXTENDED BUTTON"),
+                  const Text("EXTENDED BUTTON"),
                   FloatingActionButton.extended(
                       onPressed: () {},
-                      icon: Icon(Icons.camera_alt),
-                      label: Text("CAMERA")),
+                      icon: const Icon(Icons.camera_alt),
+                      label: const Text("CAMERA")),
                 ],
               )
             ],
