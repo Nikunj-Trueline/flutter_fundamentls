@@ -36,14 +36,14 @@ class _TestClassState extends State<TestClass> {
               },
               child:const Icon(Icons.exposure_minus_1),
             ),
-            Text("$value",style: TextStyle(color: Colors.black,fontSize: 40,fontWeight: FontWeight.w600,),),
+            Text("$value",style: const TextStyle(color: Colors.black,fontSize: 40,fontWeight: FontWeight.w600,),),
             ElevatedButton(
               onPressed: () {
              setState(() {
                increment();
              });
               },
-              child: Icon(Icons.plus_one),
+              child: const Icon(Icons.plus_one),
             )
           ],
         ),

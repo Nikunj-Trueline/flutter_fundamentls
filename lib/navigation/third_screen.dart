@@ -19,9 +19,17 @@ class NavThirdScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.navigate_next,size: 30,),
+        child: const Icon(
+          Icons.navigate_next,
+          size: 30,
+        ),
         onPressed: () {
-         Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => NavFourthScreen(),), (route) => false);
+          Navigator.pushAndRemoveUntil(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const NavFourthScreen(),
+              ),
+              (route) => false);
         },
       ),
     );

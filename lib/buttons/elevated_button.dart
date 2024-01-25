@@ -7,10 +7,11 @@ class ElevatedButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: ElevatedButton(onPressed: (){},
-            style: ElevatedButton.styleFrom(
-            ),
-            child: const Text("T h a n k y o u  1"),),
+        child: ElevatedButton(
+          onPressed: () {},
+          style: ElevatedButton.styleFrom(),
+          child: const Text("T h a n k y o u  1"),
+        ),
       ),
     );
   }

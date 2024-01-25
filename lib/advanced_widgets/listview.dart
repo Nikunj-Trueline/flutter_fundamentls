@@ -15,7 +15,7 @@ class _ListViewWidgetState extends State<ListViewWidget> {
         child: ListView(
           //reverse: true,
       //    scrollDirection: Axis.horizontal,
-          children: [
+          children: const [
             Padding(
               padding: EdgeInsets.all(10),
               child: Card(

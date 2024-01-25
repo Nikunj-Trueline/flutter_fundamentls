@@ -19,8 +19,8 @@ class _TabBarWidgetsState extends State<TabBarWidgets> {
         initialIndex: 0,
         child: Scaffold(
       appBar: AppBar(
-        title: Text("T A B B A R"),
-        bottom: TabBar(
+        title: const Text("T A B B A R"),
+        bottom: const TabBar(
           indicatorColor: Colors.deepPurple,
             labelPadding: EdgeInsets.all(10)
             ,
@@ -32,7 +32,7 @@ class _TabBarWidgetsState extends State<TabBarWidgets> {
 
         ]),
       ),
-          body: TabBarView(
+          body: const TabBarView(
               physics: BouncingScrollPhysics(),
               children: [
             ImageWidget(),

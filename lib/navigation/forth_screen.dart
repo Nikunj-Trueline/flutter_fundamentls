@@ -18,7 +18,7 @@ class NavFourthScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.navigate_next,size: 30,),
+        child: const Icon(Icons.navigate_next,size: 30,),
         onPressed: () {
 
         },

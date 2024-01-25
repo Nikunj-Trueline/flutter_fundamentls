@@ -10,7 +10,7 @@ class ListTileWidgets extends StatefulWidget {
 class _ListTileWidgetsState extends State<ListTileWidgets> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Padding(
           padding: EdgeInsets.all(10),

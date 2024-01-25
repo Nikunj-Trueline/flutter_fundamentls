@@ -15,17 +15,18 @@ class _SnackBarWidgetState extends State<SnackBarWidget> {
         child: IconButton(onPressed: () {
            setState(() {
 
-             SnackBar snackBar = SnackBar(content: Text("T H A N K Y O U..",style: TextStyle(color: Colors.black,fontSize: 20),),
+             SnackBar snackBar = const SnackBar(
+               content: Text("T H A N K Y O U..",style: TextStyle(color: Colors.black,fontSize: 20),),
              backgroundColor: Colors.amber,
                elevation: 20,
-               behavior: SnackBarBehavior.floating,
-               duration: Duration(seconds: 1),
+              behavior: SnackBarBehavior.floating,
+               duration: Duration(seconds: 5),
                shape: RoundedRectangleBorder(),
              );
 
              ScaffoldMessenger.of(context).showSnackBar(snackBar);
            });
-        }, icon: Icon(Icons.add_alert,size: 50,))
+        }, icon: const Icon(Icons.add_alert,size: 50,))
       ),
     );
   }

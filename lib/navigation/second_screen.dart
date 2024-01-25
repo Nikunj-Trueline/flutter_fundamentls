@@ -19,7 +19,7 @@ class NavSecondScreen extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(
+        child: const Icon(
           Icons.navigate_next,
           size: 30,
         ),
@@ -27,7 +27,7 @@ class NavSecondScreen extends StatelessWidget {
           Navigator.pushReplacement(
               context,
               MaterialPageRoute(
-                builder: (context) => NavThirdScreen(),
+                builder: (context) => const NavThirdScreen(),
               ));
         },
       ),
