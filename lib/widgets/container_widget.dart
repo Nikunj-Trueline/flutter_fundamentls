@@ -7,8 +7,8 @@ class ContainerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: double.infinity,
-        width: double.infinity,
+     height: 500,
+       width: 200,
        padding: const EdgeInsets.all(20),
         margin: const EdgeInsets.all(50),
         alignment: Alignment.topCenter,

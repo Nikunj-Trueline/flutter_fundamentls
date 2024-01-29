@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_fundamentls/buttons/elevated_button.dart';
+import 'package:flutter_fundamentls/data_pass_simple_text/first_screen.dart';
 import 'package:flutter_fundamentls/mediaquery/mediaquery_helper.dart';
 import 'package:flutter_fundamentls/project/splash_screen.dart';
+import 'package:flutter_fundamentls/widgets/container_widget.dart';
 
 import 'advanced_widgets/listview.dart';
 import 'advanced_widgets/listview_builder.dart';
@@ -19,10 +21,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     MediaQueryHelper.onInit(context: context);
 
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: SnackBarWidget(),
+      home: ContainerWidget(),
       //   initialRoute: 'first',
       //   routes: {
       //     'first' : (context) => NavFirstScreen(),
