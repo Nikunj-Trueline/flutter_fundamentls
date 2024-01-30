@@ -1,3 +1,5 @@
+// THIS IS MODEL CLASS FOR FRUIT DETAILS PASS.
+
 class FruitDataModel{
   final String name,ImageUrl,desc;
 
